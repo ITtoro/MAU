@@ -1,0 +1,393 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. 2600px
+2. 1800px
+3. 1600px
+4. 1440px
+5 1280px
+6. 1199px
+7. 1024px
+8. 991px
+9. 959px
+10. 880px
+11 768px
+12. 767px
+13. 539px
+14. 479px
+15. 400px
+
+******************************/
+
+/************
+1. 2600px
+************/
+
+@media only screen and (max-width: 2600px)
+{
+	.search
+	{
+		width: 400px;
+	}
+}
+
+
+/************
+2. 1880px
+************/
+
+@media only screen and (max-width: 1880px)
+{
+	.search
+	{
+		width: 300px;
+	}
+}
+
+/************
+3. 1600px
+************/
+
+@media only screen and (max-width: 1600px)
+{
+	.main_nav
+	{
+		padding-left: 100px;
+	}
+	.shopping
+	{
+		padding-right: 100px;
+	}
+}
+
+/************
+4. 1440px
+************/
+
+@media only screen and (max-width: 1440px)
+{
+	.shopping
+	{
+		padding-right: 70px;
+		margin-left: 60px;
+	}
+}
+
+/************
+3. 1380px
+************/
+
+@media only screen and (max-width: 1380px)
+{
+	.main_nav
+	{
+		padding-left: 100px;
+	}
+	.main_nav ul li
+	{
+		margin-right: 34px;
+	}
+	.header_search
+	{
+		display: inline-flexbox;
+		width: 200px;
+	}
+}
+
+/************
+3. 1280px
+************/
+
+@media only screen and (max-width: 1280px)
+{
+	.header_search
+	{
+		display: inline-flexbox;
+	}
+}
+
+/************
+4. 1199px
+************/
+
+@media only screen and (max-width: 1199px)
+{
+	.header_search
+	{
+		display: none;
+		
+	}
+}
+
+/************
+4. 1100px
+************/
+
+@media only screen and (max-width: 1100px)
+{
+	.header_search
+	{
+		display: none;
+	}
+}
+
+/************
+5. 1024px
+************/
+
+@media only screen and (max-width: 1024px)
+{
+	.header_search
+	{
+		display: none;
+	}
+}
+
+/************
+8. 991px
+************/
+
+@media only screen and (max-width: 991px)
+{
+	.main_nav
+	{
+		display: none;
+	}
+	.shopping
+	{
+		padding-right: 91px;
+	}
+	.home_content
+	{
+	top: -50px;
+	}
+	.section_title
+	{
+		font-size: 47px;
+	}
+	.product_content
+	{
+		margin-top: 63px;
+	}
+	.footer_nav ul li
+	{
+		margin-right: 30px;
+	}
+}
+
+/************
+9. 959px
+************/
+
+@media only screen and (max-width: 959px)
+{
+	
+}
+
+/************
+10. 880px
+************/
+
+@media only screen and (max-width: 880px)
+{
+	
+}
+
+/************
+11. 768px
+************/
+
+@media only screen and (max-width: 768px)
+{
+	
+}
+
+/************
+12. 767px
+************/
+
+@media only screen and (max-width: 767px)
+{
+	.review_form_input
+	{
+		width: 100%;
+		margin-bottom: 8px;
+	}
+	.review_form_text
+	{
+		margin-top: 0;
+	}
+}
+
+/************
+13. 575px
+************/
+
+@media only screen and (max-width: 575px)
+{
+	p{font-size: 13px;}
+	.home
+	{
+		height: 372px;
+	}
+	.header
+	{
+		height: 70px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.logo a
+	{
+		font-size: 24px;
+	}
+	.shopping
+	{
+		padding-right: 47px;
+		margin-left: 0;
+	}
+	.burger_container
+	{
+		top: calc(50% + 1px);
+	}
+	.menu
+	{
+		width: 100%;
+		right: -100%;
+		padding-right: 15px;
+		padding-left: 15px;
+		padding-top: 90px;
+	}
+	.menu .search
+	{
+		margin-bottom: 50px;
+	}
+	.menu .search_input
+	{
+		height: 36px;
+	}
+	.menu_close_container
+	{
+		right: 15px;
+	}
+	.menu .logo
+	{
+		margin-bottom: 35px;
+		margin-right: auto;
+	}
+	.telefon
+	{
+	margin-top: -10px;
+	}
+	.menu.active
+	{
+		right: 0;
+	}
+	.home_content
+	{
+	top: -275px
+	}
+	.home_title
+	{
+	font-size: 42px;
+	}
+	.review_image
+	{
+		width: 52px;
+		height: 52px;
+	}
+	.product_image_thumbnail
+	{
+		width: 80px;
+		height: 80px;
+		margin-right: 15px;
+	}
+	.review_content
+	{
+		padding-left: 67px;
+	}
+	.newsletter
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.newsletter_button
+	{
+		display: block;
+		position: relative;
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+	.newsletter_text
+	{
+		font-size: 13px;
+	}
+	.footer_logo a
+	{
+		font-size: 48px;
+	}
+	.footer_nav ul li
+	{
+		display: block;
+		margin-right: 0;
+		margin-bottom: 5px;
+	}
+	.footer_nav ul li:last-child
+	{
+		margin-bottom: 0;
+	}
+	.footer_social ul li
+	{
+		margin-right: 29px;
+	}
+	.footer_social ul li a i
+	{
+		font-size: 20px;
+	}
+}
+
+/************
+13. 539px
+************/
+
+@media only screen and (max-width: 539px)
+{
+	
+}
+
+/************
+14. 480px
+************/
+
+@media only screen and (max-width: 480px)
+{
+	
+}
+
+/************
+15. 479px
+************/
+
+@media only screen and (max-width: 479px)
+{
+	
+}
+
+/************
+15. 400px
+************/
+
+@media only screen and (max-width: 400px)
+{
+	.home_content
+	{
+	top: -275px;
+	}
+	.home_title
+	{
+	font-size: 34px;
+	}
+}

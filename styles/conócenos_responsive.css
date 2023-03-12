@@ -1,0 +1,468 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. 1600px
+2. 1440px
+3. 1280px
+4. 1199px
+5. 1024px
+6. 991px
+7. 959px
+8. 880px
+9. 768px
+10. 767px
+11. 539px
+12. 479px
+13. 400px
+
+******************************/
+
+/************
+1. 1880px
+************/
+
+@media only screen and (max-width: 1880px)
+{
+	.search
+	{
+		width: 300px;
+	}
+}
+
+/************
+1. 1600px
+************/
+
+@media only screen and (max-width: 1600px)
+{
+	.main_nav
+	{
+		padding-left: 100px;
+	}
+	.shopping
+	{
+		padding-right: 100px;
+	}
+}
+
+/************
+2. 1440px
+************/
+
+@media only screen and (max-width: 1440px)
+{
+	.shopping
+	{
+		padding-right: 70px;
+		margin-left: 60px;
+	}
+}
+
+/************
+3. 1380px
+************/
+
+@media only screen and (max-width: 1380px)
+{
+	.main_nav
+	{
+		padding-left: 100px;
+	}
+	.main_nav ul li
+	{
+		margin-right: 34px;
+	}
+	.header_search
+	{
+		display: inline-flexbox;
+		width: 200px;
+	}
+}
+
+/************
+3. 1280px
+************/
+
+@media only screen and (max-width: 1280px)
+{
+	.header_search
+	{
+		display: inline-flexbox;
+	}
+	.options_item
+	{
+		padding-left: 15px;
+	}
+}
+
+/************
+4. 1199px
+************/
+
+@media only screen and (max-width: 1199px)
+{
+	.header_search
+	{
+		display: none;
+		
+	}
+}
+
+/************
+4. 1100px
+************/
+
+@media only screen and (max-width: 1100px)
+{
+	.header_search
+	{
+		display: none;
+	}
+}
+
+/************
+5. 1024px
+************/
+
+@media only screen and (max-width: 1024px)
+{
+	.header_search
+	{
+		display: none;
+	}
+	.Conócenos
+	{
+		margin: 0 0;
+	}
+}
+
+/************
+6. 991px
+************/
+
+@media only screen and (max-width: 991px)
+{
+	.home_content
+	{
+		margin-top: -100px;
+	}
+	.home_titleppp
+	{
+		font-size: 24px;
+		line-height: 1.3;
+	}
+	.Conócenos
+	{
+		margin-bottom: 30px;
+	}
+	.main_nav
+	{
+		display: none;
+	}
+	.shopping
+	{
+		padding-right: 91px;
+	}
+	.faq
+	{
+		margin-top: 80px;
+	}
+	.footer_nav ul li
+	{
+		margin-right: 30px;
+	}
+}
+
+/************
+7. 959px
+************/
+
+@media only screen and (max-width: 959px)
+{
+	.Conócenos
+	{
+		margin-bottom: 40px;
+	}
+}
+
+/************
+8. 865px
+************/
+
+@media only screen and (max-width: 865px)
+{
+	.Conócenos
+	{
+		margin-bottom: 150px;	
+	}
+}
+
+/************
+10. 767px
+************/
+
+@media only screen and (max-width: 767px)
+{
+	.home
+	{
+		height: 627px;
+	}
+   .home_content
+	{
+		margin-top: -145px;
+	}
+	.home_title 
+	{
+		font-size: 37px;
+	}
+	.home_titleppp
+	{
+		font-size: 22px;
+		line-height: 1.3;
+	}
+	.Conócenos
+	{
+		margin-bottom: 140px;
+	}
+	.title2conoce
+	{
+		font-size: 16px;
+		padding-bottom: 40px;
+	}
+	.section_subtitle
+	{
+		font-size: 12px;
+	}
+	.section_title
+	{
+		font-size: 36px;
+	}
+	.review_form_input
+	{
+		width: 100%;
+		margin-bottom: 8px;
+	}
+	.review_form_text
+	{
+		margin-top: 0;
+	}
+}
+
+/************
+8. 640px
+************/
+
+@media only screen and (max-width: 640px)
+{
+	.Conócenos
+	{
+		margin-bottom: 180px;	
+	}
+	.title2conoce
+	{
+		font-size: 15px;
+	}
+}
+
+
+/************
+11. 575px
+************/
+
+@media only screen and (max-width: 575px)
+{
+	p{font-size: 13px;}
+	.home
+	{
+		height: 425px;
+	}
+	.home_content
+	{
+		margin-top: -270px;
+	}
+	.home_title
+	{
+	font-size: 33px;
+	line-height: 1.3;
+	}
+	.header
+	{
+		height: 80px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.telefon
+	{
+		font-size: 14px;
+		margin-top: -5px;
+	}
+	.logo a
+	{
+		font-size: 24px;
+	}
+   .home_titleppp
+   {
+   font-size: 22px;
+   line-height: 1.3;
+   }
+	.shopping
+	{
+		padding-right: 47px;
+		margin-left: 0;
+	}
+	.burger_container
+	{
+		top: calc(50% + 1px);
+	}
+	.menu
+	{
+		width: 100%;
+		right: -100%;
+		padding-right: 15px;
+		padding-left: 15px;
+		padding-top: 90px;
+	}
+	.menu .search
+	{
+		margin-bottom: 50px;
+	}
+	.menu .search_input
+	{
+		height: 36px;
+	}
+	.menu_close_container
+	{
+		right: 15px;
+	}
+	
+	.menu.active
+	{
+		right: 0;
+	}
+	.review_form_title,
+	.review_form_content
+	{
+		text-align: left;
+	}
+	.Conócenos
+	{
+		margin-bottom: 160px;
+		padding-left: 20px;
+	padding-right: 20px;
+	}
+	.title2conoce
+	{
+		font-size: 15px;
+	}
+	.accordion
+	{
+		padding-left: 20px;
+		font-size: 13px;
+	}
+	.newsletter
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.newsletter_button
+	{
+		display: block;
+		position: relative;
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+	.newsletter_text
+	{
+		font-size: 13px;
+	}
+	.section_subtitle
+	{
+		font-size: 12px;
+	}
+	.section_title
+	{
+		font-size: 28px;
+	}
+	.footer_logo a
+	{
+		font-size: 48px;
+	}
+	.footer_nav ul li
+	{
+		display: block;
+		margin-right: 0;
+		margin-bottom: 5px;
+	}
+	.footer_nav ul li:last-child
+	{
+		margin-bottom: 0;
+	}
+	.footer_social ul li
+	{
+		margin-right: 29px;
+	}
+	.footer_social ul li a i
+	{
+		font-size: 20px;
+	}
+}
+
+/************
+11. 539px
+************/
+
+@media only screen and (max-width: 539px)
+{
+	.titleconoce
+	{
+	font-size: 37px;
+	}
+}
+/************
+12. 480px
+************/
+
+@media only screen and (max-width: 480px)
+{
+	.breadcrumbs ul li a
+	{
+		font-size: 14px;
+	}
+	.breadcrumbs ul li
+	{
+		font-size: 14px;
+	}
+	.titleconoce
+	{
+	font-size: 35px;
+	}
+	.title2conoce
+	{
+		font-size: 14px;
+	}
+}
+
+/************
+14. 369px
+************/
+
+@media only screen and (max-width: 369px)
+{
+	.Conócenos
+	{
+		margin-bottom: 200px;
+	}
+	.titleconoce
+	{
+	position: relative;
+	font-size: 23px;
+	}
+	.title2conoce
+	{
+	font-size: 14px;
+	}
+}
